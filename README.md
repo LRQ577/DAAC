@@ -183,26 +183,8 @@ For the **external dataset (ADFD)**:
    * the feature index semantics are identical to the internal dataset,
    * labels and patient IDs are correctly matched.
 
-> We do **not** distribute either raw or processed data files in this repository.
+> We do **not** distribute either raw or processed external data files in this repository.
 > Users are responsible for obtaining the external data and performing all necessary preprocessing steps.
-
----
-
-## 4. Summary Checklist
-
-For **both** AD (internal) and ADFD (external), please confirm:
-
-* [ ] `datasets/DATA_NAME/Feature/feature_ID.npy` exists for all patients.
-* [ ] Each `feature_ID.npy` has shape `[N_r, T, C]`.
-* [ ] `datasets/DATA_NAME/Label/label.npy` exists.
-* [ ] `label.npy` has shape `[N_p, 2]`, with:
-
-  * [ ] Column 0 = patient label.
-  * [ ] Column 1 = patient ID (consistent with `feature_ID.npy` files).
-* [ ] Feature types and ordering are aligned between the internal and external datasets
-  (same semantic meaning for each feature index `c`).
-
-Once these conditions are satisfied, the AD (internal) and ADFD (external) datasets are ready to be used in our experiments.
 
 ```
 ```
