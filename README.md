@@ -184,9 +184,6 @@ For the **external dataset (ADFD)**:
 > We do **not** distribute either raw or processed external data files in this repository.
 > Users are responsible for obtaining the external data and performing all necessary preprocessing steps.
 
-```
-
-
 
 ## Requirement
 
@@ -208,6 +205,13 @@ The dependencies can be installed by:
 
 ## Run the code
 
-`python AD_MCRD_exp.py`
+We have integrated the original three-stage pipeline into a single script. You can run the entire workflow with:
+
+```bash
+python AD_MCRD_exp.py
+```
+After the script finishes, the experimental results (including logs and evaluation metrics) will be saved to:
+
+`test_run/logs/AD/`
 
 
