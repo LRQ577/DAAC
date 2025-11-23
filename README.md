@@ -9,10 +9,7 @@ To do
     ADFD:(link) external dataset
 
 ### Processed data
-Datasets/AD/
-Datasets/ADFD/ match the feature
 
-````markdown
 # AD (Internal) & ADFD (External) Datasets Preparation
 
 This document describes how to prepare and organize the datasets used in our experiments.  
@@ -187,7 +184,7 @@ For the **external dataset (ADFD)**:
 > Users are responsible for obtaining the external data and performing all necessary preprocessing steps.
 
 ```
-```
+
 
 
 ## Requirement
