@@ -27,4 +27,6 @@ wfdb==4.1.0
 neurokit2==0.2.4
 The dependencies can be installed by:
 
-'pip install -r requirements.txt'
+<pip install -r requirements.txt>
+
+
