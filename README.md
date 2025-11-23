@@ -9,6 +9,7 @@ To do
     ADFD:(link) external dataset
 
 ### Processed data
+Here we use AD dataset as an example.
 
 #### AD (Internal) & ADFD (External) Datasets Preparation
 
