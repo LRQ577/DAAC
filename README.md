@@ -10,7 +10,7 @@ To do
 
 ### Processed data
 
-# AD (Internal) & ADFD (External) Datasets Preparation
+#### AD (Internal) & ADFD (External) Datasets Preparation
 
 This document describes how to prepare and organize the datasets used in our experiments.  
 We use two datasets:
@@ -26,7 +26,7 @@ After preprocessing and alignment, both datasets share the same file format, dir
 
 ---
 
-## 1. Directory Structure
+#### 1. Directory Structure
 
 After processing, the data should be organized as:
 
@@ -57,7 +57,7 @@ datasets/
 
 ---
 
-## 2. Processed Data Format
+#### 2. Processed Data Format
 
 ### 2.1 Feature Files
 
@@ -84,7 +84,7 @@ where:
 
 ---
 
-### 2.2 Label File
+##### 2.2 Label File
 
 For both datasets, the label file is:
 
@@ -107,7 +107,7 @@ The ID in the second column must match the `ID` used in `feature_ID.npy`.
 
 ---
 
-### 2.3 Consistency Between Internal and External Datasets
+##### 2.3 Consistency Between Internal and External Datasets
 
 Both **AD (internal)** and **ADFD (external)** must share the **same data structure and feature layout** after preprocessing:
 
@@ -133,9 +133,9 @@ After this alignment step, models can be trained and evaluated on AD and ADFD in
 
 ---
 
-## 3. Data Preparation Workflow
+#### 3. Data Preparation Workflow
 
-### 3.1 Internal Dataset (AD)
+##### 3.1 Internal Dataset (AD)
 
 For the **internal dataset (AD)**:
 
@@ -154,7 +154,7 @@ For the **internal dataset (AD)**:
 
 3. After running the scripts, verify that the AD data follows the directory structure and formats described in Sections 1 and 2.
 
-### 3.2 External Dataset (ADFD)
+##### 3.2 External Dataset (ADFD)
 
 For the **external dataset (ADFD)**:
 
